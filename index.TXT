@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<!--META WAJIB-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-wide-device, initial-scale=1 shrink-to-fit=no">
+    <title>Figura Renata</title>
+    <link rel="icon"  type="image/ico"  href="img/logo.ico">
+    <meta name="description" content="Figura Renata, dou folk asal indonesia, tepatnya di kota Semarang. ">
+    <meta name="keywords" content="folk musik, figura renata, indonesan folk, folk indonesia, folk semarang"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    
+    <style>
+        @font-face {
+            font-family: fugue;
+            src: url(font/fugue-regular-webfont.ttf); 
+        }
+        
+        @media(min-width:320px){
+            footer{
+                font-size: 7px;
+            }
+            .nav {
+                font-size: 7px;
+            }
+        }
+        @media(min-width:768px){
+            
+        }
+        @media(min-width:992px){
+            
+        }
+        @media(min-width:1200px){
+            
+        }
+    
+        body {
+            font-family: fugue;
+        }
+    
+        .base {
+            max-width: 600px;
+        }
+    
+        .logo{
+            width: 200px;
+            margin-bottom: -7px;
+        }
+        
+        a {
+            color: black;
+        }
+        
+        .fill-viewport {
+            min-height: 100vh;
+        }
+        
+        .intro {
+            margin-top:100px;
+        }
+        
+        .headlinemargin {
+            margin-top: 79px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container base">
+    <div class="container fixed-top base">
+        <nav class="nav justify-content-center bg-white">
+                <a class="navbar-brand" href="#">
+                     <img src="img/logo.png" class="img-fluid logo">
+                </a>
+        </nav>
+
+        <ul class="nav d-flex justify-content-between bg-white">
+                <li class="nav-item"><a class="nav-link text-left" href="#about">ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="#news">NEWS</a></li>
+                <li class="nav-item"><a class="nav-link text-right" href="#contact">CONTACT US</a></li>
+            </ul>
+    </div>
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="row fill-viewport align-items-center mt-3">
+                    <div id="slide" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/photo%202017.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/Chrysanthemum.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/Jellyfish.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <div class="col-12 text-center mt-3">
+                        <a style="font-size: 14px;">LISTEN US ON</a>
+                    </div>
+                    <div class="row justify-content-center mt-4" >
+                        <a href="https://itunes.apple.com/us/album/figura-renata/id1205899975"><i class="fa fa-apple fa-2x  mr-4"></i></a>
+                        <a href="https://www.youtube.com/channel/UC6nhB2p9TLbkD0kviZewwqw"><i class="fa fa-youtube-play fa-2x"></i></a>
+                        <a href="https://open.spotify.com/album/66Yw2uSARl9QVAjBnBTkvr"><i class="fa fa-spotify fa-2x ml-4"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <section id="about">
+            <div class="container">
+                <div class="row col-12 fill-viewport align-items-center">
+                    <h2 class="headlinemargin">KISAH KAMI</h2>
+                    <p class="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus cursus rhoncus. Nam mollis sapien ac augue convallis, quis convallis nunc placerat. Aenean condimentum ex vitae turpis gravida porta. Sed eu diam velit. In hac habitasse platea dictumst. Maecenas consequat luctus lacinia. Etiam sed pretium turpis. Ut eu ligula mattis, iaculis eros vel, finibus odio. Vivamus quis tortor a velit cursus suscipit sed vel tellus. Nullam facilisis urna ut risus vestibulum condimentum. Donec orci turpis, porttitor a pretium id, feugiat et lectus. Phasellus a risus volutpat, tristique nisl et, gravida dolor.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="container fill-viewport">
+                <div class="row  fill-viewport align-items-center">
+                    <h1 class="mb-0 text-center">Pardon !!!!!</h1>
+                    <div class="instafeed"></div>
+                    <p>we still working for this section so you can happly browse this site mean while silahkan kunjungi </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--========FOOTER=========-->
+    <footer class="footer fixed-bottom">
+    <div class="row justify-content-center bg-white">
+        <a class="mb-3">this side made and maintenence by SERUM45. 2017</a>
+    </div>
+    </footer>
+</div>
+
+    
+<!--
+<div class="invisible">
+    <div class="invisible">
+    <section id="about" class="inactive">
+<h1>ABOT BAnget BOSSS</h1>
+    <img src="Penguins.jpg" class="img-fluid">
+</section>
+<section id="media" class="inactive">
+    <h1><div id="medias"> media apa aja</div></h1>
+    <img id="images" src="Jellyfish.jpg" class="img-fluid">
+</section>
+<section id="merch" class="inactive">
+    <h1> Mechhing to hell</h1>
+    <img src="Desert.jpg" class="img-fluid">
+</section>    
+<section class="contact" class="inactive">
+    <h1> Batman mabur</h1>
+    <img src="Tulips.jpg" class="img-fluid">
+</section>    
+</div>
+
+    </div>
+-->
+    <script src="css/codepen/jquery.min.js"></script>
+    <script>
+    var dc=document.getElementById("coba");
+        dc.innerHTML='<a href="http://localhost/">halllo</a>';
+        
+        
+    $(document).ready(function() {
+       /* ini adalah cara untuk mendefinisikan tampilan*/
+        $("#medias").css("cursor","pointer");
+    });
+/* ini adalah cara untuk mendefinisikan aksi*/
+    $("#medias").click(function() {
+
+       $("#images").hide();
+    });
+    
+    var token = '925d42979d4943b9943fc340cb9ccf1f',
+    num_photos = 10;
+ 
+$.ajax({
+    url: 'https://api.instagram.com/v1/users/self/media/recent',
+    dataType: 'jsonp',
+    type: 'GET',
+    data: {access_token: token, count: num_photos},
+    success: function(data){
+        console.log(data);
+        for( x in data.data ){
+            $('.instafeed').append('<ul><li><img src="'+data.data[x].images.low_resolution.url+'"></li></ul>');
+        }
+    },
+    error: function(data){
+        console.log(data);
+    }
+});
+    </script>
+</body>
+</html>

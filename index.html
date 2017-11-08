@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<!--META WAJIB-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-wide-device, initial-scale=1 shrink-to-fit=no">
+    <title>Figura Renata</title>
+    <link rel="icon"  type="image/ico"  href="img/logo.ico">
+    <meta name="description" content="Figura Renata, dou folk asal indonesia, tepatnya di kota Semarang. ">
+    <meta name="keywords" content="folk musik, figura renata, indonesan folk, folk indonesia, folk semarang"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <style>
+        
+        @font-face {
+            font-family: fugue;
+            src: url(font/fugue-regular-webfont.ttf); 
+        }
+        
+                
+    </style>
+</head>
+<body>
+<section id="navigate">
+        <div class="container fixed-top bg-white">
+            <div class="row">
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>
+                <div class="col-12 col-lg-8 col-xl-8 text-center">
+                    <a class="nav-brand" href="#home"><img class="img-fluid vl" src="img/logo.png"></a>
+                    <ul class="nav justify-content-between nf">
+                        <li class="nav-item"><a class="nav-link text-left" href="#about">ABOUT US</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#news">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link text-right" href="#contact">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>
+            </div>            
+        </div>
+</section>
+<section id="home">
+        <div class="container">
+            <div class="row vp align-items-center">
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>
+                <div class="col-12 col-lg-8 col-xl-8 text-center ">
+                    <img class="img-fluid" src="img/photo%202017.jpg"> 
+                    <h5 class="my-3">listen to us</h5>
+                <a href="https://itunes.apple.com/us/album/figura-renata/id1205899975"><i class="fa fa-apple fa-2x mx-3"></i></a>
+                <a href="https://www.youtube.com/channel/UC6nhB2p9TLbkD0kviZewwqw"><i class="fa fa-youtube-play fa-2x mx-3"></i></a>
+                <a href="https://open.spotify.com/album/66Yw2uSARl9QVAjBnBTkvr"><i class="fa fa-spotify fa-2x mx-3"></i></a>
+                </div>
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="about">
+        <div class="container">
+            <div class="row vp align-items-center">
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>
+                <div class="col-12 col-lg-8 col-xl-8">
+                <h1>Cerita Kami</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus cursus rhoncus. Nam mollis sapien ac augue convallis, quis convallis nunc placerat. Aenean condimentum ex vitae turpis gravida porta. Sed eu diam velit. In hac habitasse platea dictumst. Maecenas consequat luctus lacinia. Etiam sed pretium turpis. Ut eu ligula mattis, iaculis eros vel, finibus odio. Vivamus quis tortor a velit cursus suscipit sed vel tellus. Nullam facilisis urna ut risus vestibulum condimentum. Donec orci turpis, porttitor a pretium id, feugiat et lectus. Phasellus a risus volutpat, tristique nisl et, gravida dolor.</p>    
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>    
+            </div>
+            </div>
+        </div>
+    </section>
+<section id="news"></section>
+<section id="contact">
+        <div class="container">
+            <div class="row vp align-items-center">
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>
+                <div class="col-12 col-lg-8 col-xl-8">
+                <h1>hubungi kami di</h1>
+                <form>
+                <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+                </form> 
+                <div class="col-2 d-none d-lg-block d-xl-block">
+                </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="footer">
+        <footer>
+            <div class="container">
+                <div class="row fixed-bottom bg-white align-items-center">
+                    <div class="col-12  text-center ff">
+                    <p>this site is  designed and mainteneced by SERUM 45</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+<script src="css/codepen/jquery.min.js"></script>
+    <script>
+    var dc=document.getElementById("coba");
+        dc.innerHTML='<a href="http://localhost/">halllo</a>';
+        
+        
+    $(document).ready(function() {
+       /* ini adalah cara untuk mendefinisikan tampilan*/
+        $("#medias").css("cursor","pointer");
+    });
+/* ini adalah cara untuk mendefinisikan aksi*/
+    $("#medias").click(function() {
+
+       $("#images").hide();
+    });
+    
+    var token = '925d42979d4943b9943fc340cb9ccf1f',
+    num_photos = 10;
+ 
+$.ajax({
+    url: 'https://api.instagram.com/v1/users/self/media/recent',
+    dataType: 'jsonp',
+    type: 'GET',
+    data: {access_token: token, count: num_photos},
+    success: function(data){
+        console.log(data);
+        for( x in data.data ){
+            $('.instafeed').append('<ul><li><img src="'+data.data[x].images.low_resolution.url+'"></li></ul>');
+        }
+    },
+    error: function(data){
+        console.log(data);
+    }
+});
+    </script>
+
+</body>
+</html>

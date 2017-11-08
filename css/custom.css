@@ -1,0 +1,71 @@
+/* GLOBAL ELEMENTS */    
+@font-face {
+
+    font-family: fugue;
+    src: url(font/fugue-regular-webfont.ttf) !important; 
+    }
+    
+body {
+    font-family: fugue !important; 
+}
+
+a {
+    color: black;
+}
+/*navigation*/
+
+
+
+@media (max-width: 575px) {
+.nf {
+    font-size: 10px;
+    }
+
+    .vp{
+    min-height: 115vh;
+    }
+
+    .ff{
+        font-size: 11px;
+    }
+
+    .vl{
+    width: 200px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .vp{
+    height: 80vh;
+    }
+    
+    .vl{
+        width: 400px;
+    }
+    
+    .nf {
+    font-size: 16px;    
+    }
+    
+   
+@media (min-width: 992px) {
+            .vp{
+    height: 100vh;
+    }
+    
+    .vl{
+        width: 200px;
+    }
+    
+    .nf {
+    font-size: 16px;    
+    }
+    }
+@media (min-width: 1200px) {
+        
+    }
+}
+
+
+    
